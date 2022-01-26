@@ -1,3 +1,12 @@
+:root {
+  --greyDark: #040404;
+  --greyLight: #131313;
+  --greyLighter: #282828;
+  --greyText: #b3b3b3;
+  --greyNav: #090909;
+  --greenMain: #1db954;
+}
+
 body {
   background-color: #121212;
   font-family: Arial, Helvetica, sans-serif;
@@ -64,10 +73,11 @@ body {
 .card {
   height: 80px;
   width: 300px;
-  background-color: #3c3c3c;
+  background-color: var(--greyLighter);
   border-radius: 9px;
+
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   align-items: center;
 }
 
@@ -84,21 +94,30 @@ body {
 
 .hero-wrapper {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row;
   gap: 30px;
   width: 100%;
+  flex-shrink: 2;
 }
 
 .hero-card {
-  width: 192px;
+  width: 20%;
   height: 270px;
   display: flex;
   flex-flow: column nowrap;
   align-items: flex-start;
   padding: 20px;
-  background-color: hsl(0deg 0% 7%);
+  background-color: var(--greyLighter);
   border-radius: 9px;
   align-items: center;
+}
+
+.hero-card:hover {
+  opacity: 0.7;
+}
+
+.card:hover {
+  opacity: 0.7;
 }
 
 .hero-card > img {

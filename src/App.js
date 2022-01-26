@@ -10,6 +10,9 @@ const App = () => {
       <Sidebar />
       <Header />
       <Hero />
+      <Hero />
+      <Hero />
+      <Hero />
     </div>
   );
 };
