@@ -32,15 +32,33 @@ body {
   padding: 20px;
 }
 
-.sidebar-menus > ul {
+.sidebar-menus {
+  margin: 0;
+  padding: 0;
   height: 200px;
-  outline: 2px solid red;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
 
+.sidebar-menus {
+  margin: 0;
+  width: calc(100vw - 75%);
+}
+
+.sidebar-menus > ul {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  outline: 2px solid red;
+}
+
 li {
+  margin-left: 0px;
+  padding-left: 20px;
+  overflow: hidden;
+  outline: 2px solid green;
   text-decoration: none;
   list-style: none;
   font-weight: bold;
@@ -48,6 +66,7 @@ li {
 
 li:hover {
   background-color: var(--greyLighter);
+  width: 300px;
 }
 
 .header-logo {

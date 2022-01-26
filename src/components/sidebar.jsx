@@ -11,7 +11,7 @@ const sidebar = () => {
         />
       </header>
       <div className="sidebar-menus">
-        <ul>
+        <ul className="sidebar-menus">
           <li className="sidebar-menus">Home</li>
           <li className="sidebar-menus">Search</li>
           <li className="sidebar-menus">Library</li>
