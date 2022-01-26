@@ -51,14 +51,13 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  outline: 2px solid red;
 }
 
 li {
   margin-left: 0px;
   padding-left: 20px;
   overflow: hidden;
-  outline: 2px solid green;
+
   text-decoration: none;
   list-style: none;
   font-weight: bold;
