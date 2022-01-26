@@ -32,6 +32,24 @@ body {
   padding: 20px;
 }
 
+.sidebar-menus > ul {
+  height: 200px;
+  outline: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+  font-weight: bold;
+}
+
+li:hover {
+  background-color: var(--greyLighter);
+}
+
 .header-logo {
   padding: 20px;
   height: 40px;

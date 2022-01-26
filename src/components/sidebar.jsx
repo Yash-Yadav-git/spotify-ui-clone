@@ -10,9 +10,14 @@ const sidebar = () => {
           className="header-logo"
         />
       </header>
-      <h4 className="menu-home">Home</h4>
-      <h4 className="menu-home">Search</h4>
-      <h4 className="menu-home">Your library</h4>
+      <div className="sidebar-menus">
+        <ul>
+          <li className="sidebar-menus">Home</li>
+          <li className="sidebar-menus">Search</li>
+          <li className="sidebar-menus">Library</li>
+        </ul>
+      </div>
+
       <div className="header-last">
         <p className="cookies">Cookies</p>
         <p>Privacy Policy</p>
