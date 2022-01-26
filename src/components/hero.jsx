@@ -22,14 +22,6 @@ const hero = () => {
           <img src="../Images/Madeforyou.png" alt="" />
           <span className="images-title">Playlist 1</span>
         </div>
-        <div className="hero-card">
-          <img src="../Images/Madeforyou.png" alt="" />
-          <span className="images-title">Playlist 1</span>
-        </div>
-        <div className="hero-card">
-          <img src="../Images/Madeforyou.png" alt="" />
-          <span className="images-title">Playlist 1</span>
-        </div>
       </div>
     </section>
   );
