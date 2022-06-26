@@ -16,7 +16,7 @@ phases:
 
   post_build:
     commands:
-       - aws s3 cp --recursive --acl public-read ./build s3://${DeployBucket}/           
+       - aws s3 cp --recursive --acl public-read ./build s3://codepipeline-us-east-1-958973668283/spotify-clone/SourceArti/           
      
 artifacts:
   # include all files required to run application
