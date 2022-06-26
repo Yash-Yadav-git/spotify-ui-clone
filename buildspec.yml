@@ -14,7 +14,7 @@ phases:
         # run build script
         - npm run build
 
-  post-build:
+  post_build:
     commands:
        - aws s3 cp --recursive --acl public-read ./build s3://${DeployBucket}/           
      
