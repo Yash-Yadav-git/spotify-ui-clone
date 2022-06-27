@@ -12,6 +12,7 @@ phases:
   build:
     commands:
         # run build script
+        echo "Running build stage"
         - npm run build
 
 artifacts:
